@@ -4,7 +4,6 @@ use mongodb::{
     options::{ClientOptions, DropCollectionOptions, StreamAddress, UpdateModifications},
     Client, Collection, Database,
 };
-use chrono::NaiveDateTime;
 use serde::{
     de::{DeserializeOwned, Error},
     Deserialize, Deserializer, Serialize,
