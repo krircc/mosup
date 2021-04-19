@@ -754,8 +754,10 @@ dependencies = [
  "anyhow",
  "chrono",
  "dotenv",
+ "futures",
  "mongodb",
  "ntex",
+ "ntex-cors",
  "serde",
  "serde_json",
  "tokio",
@@ -831,6 +833,16 @@ dependencies = [
  "log",
  "ntex-service",
  "tokio",
+]
+
+[[package]]
+name = "ntex-cors"
+version = "0.1.0"
+source = "git+https://github.com/ntex-rs/ntex-extras#bb3816f00225de9caf228e5ffcd9ad0563cbe53c"
+dependencies = [
+ "derive_more",
+ "futures",
+ "ntex",
 ]
 
 [[package]]

@@ -6,8 +6,10 @@ edition = "2018"
 
 [dependencies]
 ntex = "0.3"
+ntex-cors = {git = "https://github.com/ntex-rs/ntex-extras"}
 mongodb = "2.0.0-alpha.1"
 tokio = "1.5.0"
+futures = "0.3.4"
 anyhow = "1.0.40"
 chrono = { version = "0.4", features = ["serde"]}
 dotenv = "0.15"
